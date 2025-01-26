@@ -1,0 +1,7 @@
+{
+    "jupyter.notebookFileRoot": "${workspaceFolder}/data_processing",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/data_processing"
+    ],
+    "python.defaultInterpreterPath": "${workspaceFolder}/data_processing/.venv/bin/python"
+}
