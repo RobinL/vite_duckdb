@@ -1,5 +1,16 @@
-Consider this vite app:
+Consider The following vite app.
 
+I'm trying to build a vite app that uses a duckdb database
+public/
+├── db.duckdb
+
+The current code is WORKIGN.
+
+But I now want to start building out the app such that the duckdb database/connection is available in many places
+The data in db.duckdb forms the backbone/basis for evertyhing the app does
+For instances, i will set up controls to filter the data and so on
+
+Given this, and that i want a professinoally architected app, where should i put the code that loads in the duckdb database?
 
 
 (data_processing) ➜  vite_duckdb git:(main) ✗ tree public/
